@@ -1,0 +1,61 @@
+/* Estilo geral do container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo dos controles do formulário */
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo dos labels */
+  .form-control label {
+    
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Estilo dos inputs */
+  .form-control input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  /* Estilo do botão de submissão */
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(12, 11, 8);
+    color:gold;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilo do botão ao passar o mouse */
+  button[type="submit"]:hover {
+    background-color: gold;
+    color:black;
+  }
+
+/* Estilo para mensagens de erro */
+.erro {
+  color: red;          
+  font-size: 0.875; 
+  display: block;    
+  margin-top: 0.25; 
+}
+
+h1{
+text-align: center;
+margin: top 40%;;
+}

@@ -1,0 +1,56 @@
+.card-conteiner {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+.card{
+    background-color: rgb(0, 0, 0);
+    border:1px solid bisque;
+    border-radius: 8px ;
+    margin-right : 14px;
+    padding: 20px;
+    max-width: 250px;
+    height: 200px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgb (111,3,183);
+}
+
+.card h2{
+    font-size: 20px;
+    color: gold;
+        padding-bottom:10px ;
+
+}
+
+.card p {
+
+    font-size: 16px;
+    color: gold;
+    padding-bottom: 18px;
+
+
+}
+
+.card a {
+    text-decoration: none;
+    color: red
+}
+
+.cadastre{
+
+    margin-top: 50px;
+
+}
+
+.card-image {
+    width: 100%; /* Faz com que a imagem ocupe a largura total do card */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 130px; /* Limita a altura máxima da imagem */
+    object-fit: cover; /* Faz com que a imagem cubra o espaço sem distorção */
+    border-radius: 8px; /* Adiciona bordas arredondadas à imagem, opcional */
+    margin-top: 10px; /* Espaço entre o texto e a imagem */
+}

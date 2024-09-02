@@ -1,0 +1,31 @@
+.Header{
+
+    display: flex;
+    justify-content: space-between;
+    
+    margin-left: 40px;
+
+}
+
+.Header li{
+    color: gold;
+    font-size: 20px;
+    padding: 9px;
+    
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.Header li:hover{
+
+    background-color: gold;
+    border-radius: 10%;
+    color: black;
+
+}
